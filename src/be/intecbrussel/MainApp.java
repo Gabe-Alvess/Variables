@@ -45,39 +45,5 @@ public class MainApp {
         // don't use
         var x = 10;
         System.out.println(x);
-
-        System.out.println("--- exercise 1 ----");
-
-        byte byteExample = 100;
-        byteExample = 110;
-        System.out.println(byteExample);
-
-        short shortExample = -5000;
-        shortExample = -5050;
-        System.out.println(shortExample);
-
-        int intExample = 2000000000;
-        intExample = 2100000000;
-        System.out.println(intExample);
-
-        long longExample = 999999999999999999L;
-        longExample = 999999999999999991L;
-        System.out.println(longExample);
-
-        float floatExample = 3.14F;
-        floatExample = 3.15F;
-        System.out.println(floatExample);
-
-        double doubleExample = 2.71828;
-        doubleExample = 2.71829;
-        System.out.println(doubleExample);
-
-        char charExample = 'A';
-        charExample = 'B';
-        System.out.println(charExample);
-
-        boolean booleanExample = true;
-        booleanExample = false;
-        System.out.println(booleanExample);
     }
 }
